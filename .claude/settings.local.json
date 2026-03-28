@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:maverickcos.com)",
+      "Bash(find /Users/eliasfoudray/Desktop/Claude_Projects/MaverickAI -name .* -o -type f -o -type d)",
+      "WebFetch(domain:www.maverickcos.com)",
+      "Bash(npm run:*)",
+      "WebSearch",
+      "WebFetch(domain:www.buddyboybbq.com)",
+      "WebFetch(domain:www.linkedin.com)"
+    ]
+  }
+}

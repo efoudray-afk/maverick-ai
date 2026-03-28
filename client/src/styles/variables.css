@@ -1,0 +1,20 @@
+:root {
+  --maverick-navy: #1A2B4A;
+  --maverick-navy-dark: #0f1c30;
+  --maverick-gold: #C9A84C;
+  --maverick-gold-hover: #b8943d;
+  --maverick-gold-light: rgba(201, 168, 76, 0.15);
+  --maverick-white: #FFFFFF;
+  --maverick-gray: #E8EAF0;
+  --maverick-text: #1a2236;
+  --maverick-muted: #7a8799;
+
+  /* Glass panel */
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.55);
+  --glass-shadow: 0 24px 64px rgba(10, 20, 40, 0.35), 0 4px 16px rgba(10, 20, 40, 0.2);
+
+  --bubble-radius: 20px;
+  --font-primary: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --header-height: 68px;
+}

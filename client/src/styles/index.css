@@ -1,0 +1,52 @@
+@import './variables.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--maverick-text);
+  -webkit-font-smoothing: antialiased;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Dark gradient overlay for readability */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 16, 32, 0.55) 0%,
+    rgba(12, 22, 44, 0.45) 50%,
+    rgba(8, 16, 32, 0.65) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+a {
+  color: var(--maverick-gold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
